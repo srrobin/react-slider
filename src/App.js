@@ -1,10 +1,12 @@
-import TestimonialTwo from "./components/TestimonialTwo/TestimonialTwo";
+// import TestimonialTwo from "./components/TestimonialTwo/TestimonialTwo";
+import TestimonialThree from './components/TestimonialThree/TestimonialThree'
 
 const App = () => {
   return (
     <>
       {/* <Testimonial /> */}
-      <TestimonialTwo />
+      {/* <TestimonialTwo /> */}
+      <TestimonialThree/>
     </>
   );
 };

@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600&display=swap");
+body {
+  font-family: "Inconsolata", monospace;
+  background-color: #2e2e2e;
+}
+.testimonial .slick-arrow.slick-prev,
+.testimonial .slick-arrow.slick-next {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    border-radius: 5px;
+    color: #e4e7e7;
+}
+.testimonial .slick-prev::before,
+.testimonial .slick-next::before {
+    display: none;
+}
+.testimonial .slick-arrow.slick-next {
+    right: -70px;
+}
+.testimonial .slick-arrow.slick-prev {
+    left: -70px;
+}
+.testimonial .slick-dots li button:before {
+    font-size: 15px;
+}
+.testimonial .slick-dots li {
+    top: 15px;
+
+}
+.slick-dots li button:before {
+ color: white;
+}
+.slick-active{
+
+}
+.slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: #ffffff;
+}
+.testimonial_intro{
+
+}
+.testimonial_intro h1{
+
+}
+.testimonial_intro p{
+
+}
